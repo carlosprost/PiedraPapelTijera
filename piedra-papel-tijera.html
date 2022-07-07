@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Piedra, Papel y Tijera</title>
+</head>
+<body>
+    <div class="container">
+        <div class="titulo"></div>
+            <h1>Piedra, Papel y Tijera</h1>
+        <div class="cuerpo">
+            <div class="juego">
+                <br>
+                <img id="jugada-machine" class="jugada" src="./img/piedra.png" alt="piedra">   
+                <br>
+                <div id="text-result" class="texto">
+                    <h1>Elije para jugar.</h1>
+                </div>
+                <br>
+                <img id="jugada-user" class="jugada" src="./img/piedra.png" alt="piedra">
+                <br>
+                <div id="btns" class="btns">
+                    <img class="btn-juego" id="piedra" src="./img/piedra.png" alt="piedra">
+                    <img class="btn-juego" id="papel" src="./img/papel.png" alt="piedra">
+                    <img class="btn-juego" id="tijera" src="./img/tijera.png" alt="piedra">
+                </div>
+            </div>
+            <div class="puntos">
+                <div class="user">
+                    USUARIO
+                    <div id="puntos-user" class="punto"></div>
+                </div>
+                <div class="machine">
+                    MAQUINA
+                    <div id="puntos-machine" class="punto"></div>
+                </div>
+                <div class="reset">
+                    <button type="button" id="reset">RESET</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
